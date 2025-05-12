@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Espacio Digital Futurista</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="particles-js"></div>
 
+  <header class="header-glow">
+    <h1>Javiercitox7</h1>
+    <p>Sígueme en mis redes:</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <a href="#" class="social-link twitter">
+        <img src="https://unpkg.com/simple-icons@v7/icons/twitter.svg" alt="Twitter">
+        <span>Twitter</span>
+      </a>
+      <a href="#" class="social-link instagram">
+        <img src="https://unpkg.com/simple-icons@v7/icons/instagram.svg" alt="Instagram">
+        <span>Instagram</span>
+      </a>
+      <a href="#" class="social-link github">
+        <img src="https://unpkg.com/simple-icons@v7/icons/github.svg" alt="GitHub">
+        <span>GitHub</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- Particles.js y nuestro script -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

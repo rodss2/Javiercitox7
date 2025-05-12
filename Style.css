@@ -1,0 +1,91 @@
+/* Fuente base */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+/* Contenedor de partículas */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Header con efecto glow */
+.header-glow {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #cbd5e1;
+  max-width: 24rem;
+  width: 100%;
+}
+
+.header-glow h1 {
+  font-size: 2rem;
+  color: #38bdf8;
+  margin: 0;
+}
+
+.header-glow p {
+  margin-top: 0.5rem;
+  color: #e2e8f0;
+}
+
+/* Grid de enlaces sociales */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 1.5rem;
+  max-width: 24rem;
+  width: 100%;
+}
+
+/* Estilos de cada enlace */
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  filter: drop-shadow(0 0 5px rgba(255,255,255,0.6));
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Colores específicos */
+.twitter { background-color: #1da1f2; }
+.twitter:hover { background-color: #0d8de1; }
+
+.instagram { background-color: #e1306c; }
+.instagram:hover { background-color: #c4275c; }
+
+.github { background-color: #333; }
+.github:hover { background-color: #242424; }
